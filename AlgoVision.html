@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algo Vision</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Algo Vision</h1>
+    <div id="container"></div>
+    <hr>
+
+  
+    <div>
+        <button onclick="init()">Init</button>
+        <button onclick="play('bubble')">Bubble Sort</button>
+        <button onclick="play('selection')">Selection Sort</button>
+        <button onclick="play('insertion')">Insertion Sort</button>
+        <button onclick="play('merge')">Merge Sort</button>
+        <button onclick="play('quick')">Quick Sort</button>
+    </div>
+
+   
+    <div class="speed-control">
+        <label for="speed">Speed:</label>
+        <input type="range" id="speed" min="10" max="500" value="50">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
